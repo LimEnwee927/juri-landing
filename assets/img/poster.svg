@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0b1f3a"/>
+  <circle cx="640" cy="330" r="56" fill="#c9a227"/>
+  <polygon points="622,305 622,355 668,330" fill="#0b1f3a"/>
+  <text x="640" y="460" font-family="Georgia, serif" font-size="40" fill="#ffffff" text-anchor="middle">Juri Demo</text>
+  <text x="640" y="500" font-family="Arial, sans-serif" font-size="20" fill="#c9a227" text-anchor="middle">Click play to watch</text>
+</svg>

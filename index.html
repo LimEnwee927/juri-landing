@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Juri — Malaysia's Legal AI Assistant</title>
+<meta name="description" content="Juri is a privacy-first AI legal assistant built for Malaysia's dual legal system — Civil law today, Syariah law on the roadmap.">
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav__inner">
+    <a href="#top" class="nav__logo">Juri</a>
+    <nav class="nav__links">
+      <a href="#problem">Problem</a>
+      <a href="#product">Product</a>
+      <a href="#demo">Demo</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn--small">Talk to us</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="container hero__inner">
+      <h1>Malaysia's privacy-first AI legal assistant</h1>
+      <p class="hero__subhead">
+        Juri runs on a locally-hosted model — your clients' data never leaves your infrastructure —
+        and is built to understand Malaysia's dual legal system, Civil and Syariah, at a fraction of
+        the cost of traditional legal consultation.
+      </p>
+      <div class="hero__ctas">
+        <a href="#demo" class="btn btn--primary">Watch the demo</a>
+        <a href="#contact" class="btn btn--ghost">Contact us</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="problem" class="section">
+    <div class="container">
+      <h2>The problem</h2>
+      <p class="section__lead">
+        Legal advice in Malaysia is slow, expensive, and out of reach for most individuals and SMEs.
+        Generic AI tools make it worse: they're trained on foreign law, send sensitive data to
+        third-party servers, and ignore that Malaysia runs <strong>two parallel legal systems</strong> —
+        Civil law and Syariah law — that most off-the-shelf AI has never been built to understand.
+      </p>
+    </div>
+  </section>
+
+  <section id="product" class="section section--alt">
+    <div class="container">
+      <h2>Why Juri</h2>
+      <div class="grid grid--3">
+        <div class="card">
+          <h3>Privacy by design</h3>
+          <p>Juri is built around a locally-run AI model. Client documents and queries are never sent
+            to a third-party AI API — your data stays on infrastructure you control.</p>
+        </div>
+        <div class="card">
+          <h3>Built for Malaysia's dual legal system</h3>
+          <p>Civil law coverage — starting with the Employment Act and Contract Law — is live today.
+            Syariah/Muslim law coverage is in active development. See the <a href="#roadmap">roadmap</a>.</p>
+        </div>
+        <div class="card">
+          <h3>Affordable by design</h3>
+          <p>A self-hosted, open model means no per-query API bill stacking up — Juri is priced to be
+            a fraction of the cost of a traditional legal consultation.</p>
+        </div>
+      </div>
+
+      <div class="how-it-works">
+        <h3>How it works</h3>
+        <div class="grid grid--3">
+          <div class="step">
+            <span class="step__num">1</span>
+            <p>Ask a question in plain English or Bahasa Malaysia</p>
+          </div>
+          <div class="step">
+            <span class="step__num">2</span>
+            <p>Juri retrieves the relevant clauses from its Malaysian legal corpus</p>
+          </div>
+          <div class="step">
+            <span class="step__num">3</span>
+            <p>You get a cited answer, with sources, in seconds</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="demo" class="section">
+    <div class="container">
+      <h2>See it in action</h2>
+      <p class="section__lead">A recorded walkthrough of Juri answering real Malaysian legal questions.</p>
+      <div class="video-wrap">
+        <video id="demo-video" controls preload="metadata" poster="assets/img/poster.svg">
+          <source src="assets/video/demo.mp4" type="video/mp4">
+        </video>
+        <div id="video-placeholder" class="video-placeholder" hidden>
+          <p>Demo video coming soon.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="roadmap" class="section section--alt">
+    <div class="container">
+      <h2>Roadmap</h2>
+      <ul class="roadmap">
+        <li class="roadmap__item roadmap__item--done">
+          <span class="roadmap__tag">Done</span>
+          <span>Civil law MVP — Employment Act &amp; Contract Law retrieval, locally-hosted model</span>
+        </li>
+        <li class="roadmap__item roadmap__item--progress">
+          <span class="roadmap__tag">In progress</span>
+          <span>Expanding Civil law coverage to more Malaysian statutes</span>
+        </li>
+        <li class="roadmap__item roadmap__item--soon">
+          <span class="roadmap__tag">Coming soon</span>
+          <span>Syariah / Muslim law module (Islamic family law and related areas)</span>
+        </li>
+        <li class="roadmap__item roadmap__item--soon">
+          <span class="roadmap__tag">Coming soon</span>
+          <span>Live interactive AI demo on this site</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section section--cta">
+    <div class="container">
+      <h2>Let's talk</h2>
+      <p class="section__lead">We're raising to expand Juri's legal coverage and bring it to more firms across Malaysia.</p>
+      <a class="btn btn--primary" href="mailto:limenwee927@gmail.com?subject=Juri%20Investor%20Inquiry">Email us</a>
+      <p class="contact__email">limenwee927@gmail.com</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> Juri. All rights reserved.</p>
+    <p class="footer__disclaimer">Juri is in active development. Features marked "coming soon" are not yet available.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

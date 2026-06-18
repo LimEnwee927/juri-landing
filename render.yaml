@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: juri-landing
+    runtime: static
+    staticPublishPath: ./
+    buildCommand: ""
