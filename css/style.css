@@ -206,6 +206,8 @@ a { color: var(--color-primary); }
 
 .video-wrap video { width: 100%; display: block; }
 
+.video-placeholder[hidden] { display: none; }
+
 .video-placeholder {
   aspect-ratio: 16 / 9;
   display: flex;
